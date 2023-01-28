@@ -40,7 +40,7 @@ class App extends Component {
     );
   };
 
-  addContacts = (name, number, id) => {
+  addContacts = (name, number) => {
     const { contacts } = this.state;
     if (
       contacts.find(contact =>
